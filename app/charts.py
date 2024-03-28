@@ -13,7 +13,7 @@ def generate_pie_chart(labels, values):
   ax.pie(values, labels=labels)
   ax.axis('equal')
   #plt.show()
-  plt.savefig('pie.png')
+  plt.savefig('final_chart_pie.png')
   plt.close()
 
 
